@@ -429,7 +429,7 @@ span.input-group-addon {
 .about_section {
     width: 100%;
     float: left;
-    padding: 90px 0px 0px 0px;
+    padding: 10px 0px 50px 0px;
 }
 
 .about_taital {
@@ -448,10 +448,16 @@ span.input-group-addon {
     color: #292929;
     margin-left: 0px;
 }
-
 .about_img {
-    width: 100%;
-    float: left;
+    margin-top: 5%;
+}
+
+.col-md-5 {
+    margin-top: 10%;
+}
+
+.about_img2 {
+    margin-top: 37%;
 }
 
 .read_bt_1 {
