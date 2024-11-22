@@ -257,6 +257,7 @@ button {
 
 .navbar-brand {
     margin: 0px;
+    width: 20%;
     float: right;
 }
 
@@ -577,6 +578,9 @@ span.input-group-addon {
     width: 100%;
     float: left;
 }
+.hover02 column {
+    max-width: 100%; /* Asegura que las imágenes se ajusten al ancho del contenedor */
+}
 
 .rooms_taital {
     width: 100%;
@@ -600,8 +604,9 @@ span.input-group-addon {
 .rooms_section_2 {
     width: 100%;
     float: left;
-    padding: 40px 0px 0px 0px;
+    padding: 40px 0px 50px 300px;
 }
+
 
 
 /* Zoom In #1 */
@@ -863,116 +868,63 @@ textarea#comment::placeholder {
 
 
 /* customers section start */
-
-.customer_section {
-    width: 100%;
-    float: left;
-    padding-bottom: 170px;
+.customer_section .h1 {
+    justify-content: center; /* Centra las imágenes horizontalmente */
 }
 
-.customer_taital {
-    width: 100%;
-    float: left;
-    font-size: 40px;
-    color: #2d2c2d;
-    font-weight: bold;
-    padding-bottom: 0px;
+.customer_section .row {
+    display: flex;
+    flex-wrap: wrap; /* Para ajustar las imágenes si no caben en la misma fila */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 20px; /* Espacio entre las imágenes */
 }
 
-.customer_text {
-    width: 100%;
-    font-size: 16px;
-    color: #2d2c2d;
-    margin: 0 auto;
+.customer_section .col-md-4 {
+    display: flex;
+    flex-direction: column; /* Asegura que el texto esté debajo de la imagen */
+    align-items: center;
+    max-width: 200px; /* Ajusta el ancho de las columnas */
+    text-align: center; /* Centra el texto */
 }
 
-.customer_section_2 {
-    width: 100%;
-    float: left;
-    margin-top: 50px;
+.hover01 img {
+    max-width: 90%; /* Asegura que las imágenes se ajusten al ancho del contenedor */
+    border-radius: 10px; /* Agrega esquinas redondeadas si es necesario */
+    transition: transform 0.3s ease; /* Efecto de hover */
 }
 
-.customer_box {
-    width: 100%;
-    background-color: #ffffff;
-    padding: 40px 30px;
-    border: 2px solid #7d7d7d;
-    border-radius: 10px;
+.hover01 img:hover {
+    transform: scale(1.1); /* Ampliación al pasar el mouse */
 }
 
-.quick_icon {
-    text-align: right;
+.hover02 img {
+    max-width: 100%; /* Asegura que las imágenes se ajusten al ancho del contenedor */
+    border-radius: 10px; /* Agrega esquinas redondeadas si es necesario */
+    transition: transform 0.3s ease; /* Efecto de hover */
 }
 
-.customer_main {
-    width: 100%;
-    float: left;
+.hover02 img:hover {
+    transform: scale(1.1); /* Ampliación al pasar el mouse */
 }
 
-.customer_left {
-    width: 50%;
-    float: left;
+.hover03 img {
+    max-width: 110%; /* Asegura que las imágenes se ajusten al ancho del contenedor */
+    border-radius: 10px; /* Agrega esquinas redondeadas si es necesario */
+    transition: transform 0.3s ease; /* Efecto de hover */
 }
 
-.customer_right {
-    width: 50%;
-    float: left;
-    padding-top: 10px;
+.hover03 img:hover {
+    transform: scale(1.1); /* Ampliación al pasar el mouse */
 }
 
-.customer_name {
-    width: 100%;
-    font-size: 20px;
-    font-weight: bold;
-    color: #2d2c2d;
+.hover04 img {
+    max-width: 100%; /* Asegura que las imágenes se ajusten al ancho del contenedor */
+    border-radius: 10px; /* Agrega esquinas redondeadas si es necesario */
+    transition: transform 0.3s ease; /* Efecto de hover */
 }
 
-.enim_text {
-    width: 100%;
-    font-size: 16px;
-    color: #2590fe;
-    margin: 0px;
-}
-
-.ipsum_text {
-    width: 100%;
-    font-size: 16px;
-    color: #9a9b9b;
-    margin: 15px 0px 0px 0px;
-    display: inline-block;
-}
-
-#my_slider a.carousel-control-prev {
-    left: -60px;
-    top: 450px;
-    right: 0px;
-}
-
-#my_slider a.carousel-control-next {
-    right: -60px;
-    top: 450px;
-    left: 0px;
-    color: #ffffff;
-    background-color: #1e1e1e;
-}
-
-#my_slider .carousel-control-next,
-#my_slider .carousel-control-prev {
-    width: 55px;
-    height: 55px;
-    background: #2590fe;
-    opacity: 1;
-    font-size: 36px;
-    color: #ffffff;
-    margin: 0 auto;
-}
-
-#my_slider .carousel-control-next:focus,
-#my_slider .carousel-control-next:hover,
-#my_slider .carousel-control-prev:focus,
-#my_slider .carousel-control-prev:hover {
-    color: #ffffff;
-    background-color: #1e1e1e;
+.hover04 img:hover {
+    transform: scale(1.1); /* Ampliación al pasar el mouse */
 }
 
 
